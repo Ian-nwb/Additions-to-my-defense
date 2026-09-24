@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Additions to My Defense: The Legalistic Mind of Dr. José Rizal</title>
+  <meta name="description" content="An interactive legal and historical analysis of Dr. José Rizal's Adiciones a Mi Defensa (December 26, 1896), presenting his 12-point formal appeal to the Spanish Council of War.">
+  <meta name="keywords" content="Jose Rizal, Adiciones a Mi Defensa, Fort Santiago, 1896, Philippine History, Legal Defense, La Liga Filipina, Katipunan">
+  <meta name="author" content="Historical Jurisprudence Archive">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div id="scroll-progress-bar" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Top Sticky Navigation Bar -->
+  <header class="site-header" id="site-header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-link" id="brand-logo">
+        <span class="brand-insignia">⚖</span>
+        <span class="brand-text">
+          <span class="brand-title">Adiciones a Mi Defensa</span>
+          <span class="brand-sub">Real Fuerza de Santiago • 1896</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#historical-context" class="nav-item">Historical Timeline</a></li>
+          <li><a href="#legal-analysis" class="nav-item">The 12 Rebuttals</a></li>
+          <li><a href="#declaration-quote" class="nav-item">Solemn Oath</a></li>
+          <li><a href="#modern-relevance" class="nav-item">Civic Lessons</a></li>
+          <li><a href="#literary-vs-legal" class="nav-item">Literary vs Legal</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="btn-print-docket" class="btn-secondary-sm" title="Print or save formal brief docket">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          <span>Print Brief</span>
+        </button>
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- SECTION 1: HERO HEADER -->
+    <section id="hero" class="hero-section">
+      <div class="archival-watermark" aria-hidden="true">LEX &bull; 1896 &bull; SANTIAGO</div>
+      <div class="hero-container">
+        
+        <div class="docket-header-tag">
+          <span class="wax-seal-icon" aria-hidden="true">
+            <svg viewBox="0 0 60 60" width="36" height="36">
+              <circle cx="30" cy="30" r="28" fill="#701C1C" stroke="#D4AF37" stroke-width="2"/>
+              <path d="M18,30 Q30,12 42,30 Q30,48 18,30" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+              <circle cx="30" cy="30" r="10" fill="#800000" stroke="#D4AF37" stroke-width="1"/>
+              <text x="30" y="34" text-anchor="middle" fill="#FDFBF7" font-family="'Cinzel', serif" font-size="9" font-weight="bold">JR</text>
+            </svg>
+          </span>
+          <span class="docket-record-number">EXPEDIENTE MILITAR • CAUSA ORDINARIA Nº 357</span>
+          <span class="archival-status-badge">ARCHIVAL BRIEF</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="hero-sup-title">Additions to My Defense</span>
+          <span class="hero-es-title">Adiciones a Mi Defensa</span>
+        </h1>
+        <p class="hero-subtitle">
+          The Legalistic Mind of Dr. José Rizal: His Final Formal Appeal to the Spanish Council of War
+        </p>
+
+        <!-- Key Details Bar -->
+        <div class="key-details-bar" id="key-details-bar">
+          <div class="detail-card">
+            <div class="detail-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            </div>
+            <div class="detail-content">
+              <span class="detail-label">Date of Filing</span>
+              <strong class="detail-value">December 26, 1896</strong>
+              <span class="detail-caption">Eve of Spanish Council Verdict</span>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <div class="detail-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div class="detail-content">
+              <span class="detail-label">Locus & Prison</span>
+              <strong class="detail-value">Real Fuerza de Santiago</strong>
+              <span class="detail-caption">Fort Santiago, Manila</span>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <div class="detail-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            </div>
+            <div class="detail-content">
+              <span class="detail-label">Judicial Instrument</span>
+              <strong class="detail-value">Formal Legal Brief</strong>
+              <span class="detail-caption">12 Numbered Rebuttals of Evidence</span>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <div class="detail-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <div class="detail-content">
+              <span class="detail-label">Counsel of Defense</span>
+              <strong class="detail-value">Lt. Luis Taviel de Andrade</strong>
+              <span class="detail-caption">First Lieutenant of Artillery</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-prologue">
+          <p class="prologue-lead">
+            When condemned by a colonial military tribunal on charges of rebellion, sedition, and illegal association, Dr. José Rizal did not resort to polemics or impassioned melodrama. Instead, he deployed an exacting, forensic legal mind—drafting <em>Adiciones a Mi Defensa</em> to dismantle the prosecution’s circumstantial allegations point by rigorous point.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#legal-analysis" class="btn-primary" id="btn-explore-rebuttals">
+              <span>Examine the 12 Rebuttals</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#historical-context" class="btn-secondary" id="btn-view-timeline">
+              <span>View Trial Timeline</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 2: HISTORICAL CONTEXT & LIFE TIMELINE -->
+    <section id="historical-context" class="section-container context-section">
+      <div class="section-header">
+        <div class="section-tag">JURISPRUDENTIAL CHRONOLOGY</div>
+        <h2 class="section-title">Historical Context & Life Timeline</h2>
+        <p class="section-description">
+          Tracing Dr. José Rizal’s intellectual and political trajectory leading up to his court-martial at Fort Santiago.
+        </p>
+      </div>
+
+      <div class="timeline-controls" role="region" aria-label="Timeline navigation controls">
+        <span class="timeline-hint">Click any epoch card to inspect historical jurisprudence context</span>
+        <button id="btn-reset-timeline" class="btn-text-sm" title="Show all timeline milestones">Show Full Chronology</button>
+      </div>
+
+      <div class="timeline-wrapper" id="timeline-stepper">
+        <!-- Milestone 1 -->
+        <div class="timeline-item" data-milestone="1" tabindex="0" role="article" aria-label="1861 to 1882">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-line"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-period-badge">1861 – 1882</div>
+            <h3 class="timeline-card-title">Early Formative Years & UST</h3>
+            <div class="timeline-location">Calamba • Ateneo Municipal • Univ. of Santo Tomas</div>
+            <p class="timeline-text">
+              Born June 19, 1861 in Calamba, Laguna. Early witness to Spanish administrative injustices and the 1872 GOMBURZA executions. Completed Bachiller en Artes at Ateneo and commenced medical and surveying studies at UST before sailing for Spain.
+            </p>
+            <div class="timeline-footer">
+              <span class="badge-subtle">Foundation of Intellectual Defense</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Milestone 2 -->
+        <div class="timeline-item" data-milestone="2" tabindex="0" role="article" aria-label="1882 to 1892">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-line"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-period-badge">1882 – 1892</div>
+            <h3 class="timeline-card-title">European Propaganda Movement & Dual Masterpieces</h3>
+            <div class="timeline-location">Madrid • Paris • Berlin • Ghent</div>
+            <p class="timeline-text">
+              Authored <em>Noli Me Tángere</em> (1887) and <em>El Filibusterismo</em> (1891). Contributed reformist treatises to <em>La Solidaridad</em> advocating Philippine representation in the Spanish Cortes, assimilation, civil liberties, and secular educational reform.
+            </p>
+            <div class="timeline-footer">
+              <span class="badge-subtle">Reform Through Law & Education</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Milestone 3 -->
+        <div class="timeline-item" data-milestone="3" tabindex="0" role="article" aria-label="July 1892">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-line"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-period-badge">July 1892 – July 1896</div>
+            <h3 class="timeline-card-title">Founding of La Liga Filipina & 4-Year Dapitan Exile</h3>
+            <div class="timeline-location">Ilaya St., Tondo &bull; Dapitan, Zamboanga</div>
+            <p class="timeline-text">
+              Founded <em>La Liga Filipina</em> on July 3, 1892, as a peaceful civic league dedicated to mutual aid and industrial development. Arrested three days later by Gov. Gen. Despujol and exiled to Dapitan. For four years, he practiced medicine, taught youth, engaged in agriculture, and abstained from political agitation.
+            </p>
+            <div class="timeline-footer">
+              <span class="badge-subtle">Crucial Precedent for Points 1, 4, 6, 7 & 11</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Milestone 4 -->
+        <div class="timeline-item" data-milestone="4" tabindex="0" role="article" aria-label="August 1896">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-line"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-period-badge">August – October 1896</div>
+            <h3 class="timeline-card-title">Katipunan Uprising & The Cuba Physician Mission</h3>
+            <div class="timeline-location">Manila Bay (Cruiser Castilla) • Mediterranean Transit</div>
+            <p class="timeline-text">
+              Granted permission by Gov. Gen. Ramón Blanco to serve as a volunteer military physician in yellow-fever stricken Cuba. While awaiting passage aboard the <em>Castilla</em>, the Katipunan rebellion erupted in August. Despite opportunities to flee during layover in Singapore, Rizal honored his safe-conduct pledge. Arrested at sea off Barcelona and returned as a state prisoner.
+            </p>
+            <div class="timeline-footer">
+              <span class="badge-subtle">Basis for Points 3 & 4 (Clear Conscience)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Milestone 5 -->
+        <div class="timeline-item active-milestone" data-milestone="5" tabindex="0" role="article" aria-label="December 26 1896">
+          <div class="timeline-marker">
+            <span class="marker-dot pulse"></span>
+            <span class="marker-line"></span>
+          </div>
+          <div class="timeline-card highlighted-card">
+            <div class="timeline-period-badge red-badge">December 26, 1896</div>
+            <h3 class="timeline-card-title">Court-Martial & Writing the 12-Point Defense</h3>
+            <div class="timeline-location">Cuartel de España & Fort Santiago, Manila</div>
+            <p class="timeline-text">
+              Tried before a Spanish military court presided by Lt. Col. José Togores Polo. With only an assigned defender (Lt. Luis Taviel de Andrade) and barred from confronting witnesses, Rizal submitted <strong>Adiciones a Mi Defensa</strong>: a 12-point supplement refuting rebellion, showing he was named an honorary figurehead without consent.
+            </p>
+            <div class="timeline-footer">
+              <span class="badge-subtle red-border">The Subject of this Micro-Site</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Milestone 6 -->
+        <div class="timeline-item" data-milestone="6" tabindex="0" role="article" aria-label="December 30 1896">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-line end-line"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-period-badge">December 30, 1896</div>
+            <h3 class="timeline-card-title">Execution at Bagumbayan (Luneta)</h3>
+            <div class="timeline-location">Bagumbayan Field, Manila (7:03 AM)</div>
+            <p class="timeline-text">
+              Gov. Gen. Camilo de Polavieja approved the death sentence. Refusing a blindfold and requesting to face the firing squad (denied because of the 'traitor' label), Rizal died at age 35, leaving behind his farewell masterpiece poem <em>Mi Último Adiós</em> hidden inside an alcohol burner.
+            </p>
+            <div class="timeline-footer">
+              <span class="badge-subtle">The End of the Thinker, The Dawn of Nationhood</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: CORE LEGAL ANALYSIS (12 REBUTTALS) -->
+    <section id="legal-analysis" class="section-container legal-analysis-section">
+      <div class="section-header">
+        <div class="section-tag">FORENSIC REBUTTALS • 12 POINTS</div>
+        <h2 class="section-title">The Legalistic Mind: 12 Numbered Arguments</h2>
+        <p class="section-description">
+          An exhaustive, point-by-point breakdown of Dr. José Rizal’s legal brief. Explore the evidentiary, procedural, and logical arguments he delivered to the Council of War.
+        </p>
+      </div>
+
+      <!-- Interactive Filter & Search Bar -->
+      <div class="search-filter-card" role="search" aria-label="Search and filter the 12 defense points">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="rebuttal-search-input" 
+            class="rebuttal-search-input" 
+            placeholder="Search defense points by keyword (e.g. Katipunan, Dapitan, Valenzuela, Liga, Escape, Cuba)..."
+            aria-label="Search defense points"
+          >
+          <button id="btn-clear-search" class="btn-clear" aria-label="Clear search" style="display: none;">&times;</button>
+        </div>
+
+        <div class="filter-categories-wrapper">
+          <span class="filter-label">Filter by Legal Domain:</span>
+          <div class="filter-pills" id="category-filter-pills">
+            <button class="filter-pill active" data-category="all">All 12 Points (12)</button>
+            <button class="filter-pill" data-category="valenzuela">Valenzuela & Armed Revolt</button>
+            <button class="filter-pill" data-category="dapitan">Dapitan Exile & Conduct</button>
+            <button class="filter-pill" data-category="liga">La Liga vs. Katipunan</button>
+            <button class="filter-pill" data-category="procedural">Evidentiary Logic & Fallacies</button>
+          </div>
+        </div>
+
+        <div class="results-meta-bar">
+          <span id="results-count-text" class="results-count">Showing 12 of 12 Points</span>
+          <div class="accordion-global-controls">
+            <button id="btn-expand-all" class="btn-link">Expand All</button>
+            <span class="sep-bullet">&bull;</span>
+            <button id="btn-collapse-all" class="btn-link">Collapse All</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 12 Rebuttals Accordion Container -->
+      <div class="rebuttals-list" id="rebuttals-accordion" role="region" aria-label="12 Numbered Defense Points">
+
+        <!-- POINT 1 -->
+        <article class="rebuttal-item" data-point="1" data-category="valenzuela">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-1" id="point-header-1">
+            <div class="point-number-badge">
+              <span class="num">01</span>
+              <span class="roman">I</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Political Abstention & Counsel Against Revolt</div>
+              <h3 class="point-heading">Point 1: Absolute Political Abstention in Dapitan & Repudiation of Armed Revolt to Dr. Valenzuela</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-1" role="region" aria-labelledby="point-header-1" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That Rizal served as the continuous intellectual instigator, supreme head, and spiritual organizer of the separatist revolution while in Dapitan.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal established that from July 1892 through July 1896, he completely refrained from political engagement. When Katipunan emissary <strong>Dr. Pío Valenzuela</strong> was dispatched to Dapitan to notify him of the planned uprising, Rizal explicitly and vehemently counselled against armed revolt, stating that a rebellion without weapons, ships, and international recognition was suicide.
+                </p>
+                <div class="evidentiary-proof-box">
+                  <strong>Forensic Corroboration:</strong>
+                  Dr. Valenzuela himself left Dapitan convinced by Rizal’s counsel. Upon his return to Manila, instead of leading or joining armed skirmishes, Valenzuela immediately surrendered to Spanish authorities—proving that Rizal's words had actively suppressed, rather than encouraged, the revolt.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="Regarding the rebellion: I had nothing to do with politics from July 6, 1892 to July 1896. When Dr. Valenzuela visited me, I explicitly counselled against an uprising. Valenzuela was so convinced that he surrendered to authorities rather than joining the rebellion.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 2 -->
+        <article class="rebuttal-item" data-point="2" data-category="valenzuela procedural">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-2" id="point-header-2">
+            <div class="point-number-badge">
+              <span class="num">02</span>
+              <span class="roman">II</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Absence of Secret Correspondence</div>
+              <h3 class="point-heading">Point 2: The Incongruity of Sending an Unknown Emissary Under an Assumed Identity</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-2" role="region" aria-labelledby="point-header-2" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That clandestine communication networks linked Rizal directly to the high command of the Katipunan conspirators.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal pointed out the glaring logistical contradiction: if secret communication lines or codes had existed between him and the conspirators, sending Dr. Valenzuela under a false name (<em>"Procopio Bonifacio"</em>) at enormous expense would have been absurdly unnecessary.
+                </p>
+                <div class="evidentiary-proof-box">
+                  <strong>Forensic Corroboration:</strong>
+                  On the very same steamer that brought Valenzuela to Dapitan were five of Rizal's close family members (his sister and nieces). If Rizal had an ongoing clandestine channel, familiar couriers would have been utilized. Sending an unknown stranger proved that the organizers knew Rizal was completely in the dark regarding their plans. Furthermore, despite extensive searches, not a single letter from Rizal encouraging revolt was ever produced by the prosecution.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="If there had been correspondence between us, what need was there for Dr. Valenzuela to go to Dapitan under a false name, at great expense, when on the same boat were five members of my family? His visit proves they knew I was unaware of their plans.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 3 -->
+        <article class="rebuttal-item" data-point="3" data-category="dapitan">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-3" id="point-header-3">
+            <div class="point-number-badge">
+              <span class="num">03</span>
+              <span class="roman">III</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Voluntary Conduct & Clear Conscience</div>
+              <h3 class="point-heading">Point 3: Rejection of Rescue Offers, Cuba Medical Service, & Unconditional Surrender</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-3" role="region" aria-labelledby="point-header-3" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That Rizal was plotting sedition and attempting to evade Spanish justice under cover of medical duties.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal documented his unimpeachable voluntary conduct:
+                </p>
+                <ul>
+                  <li>He explicitly rejected clandestine offers to help him escape from Dapitan.</li>
+                  <li>He voluntarily petitioned the Governor-General to serve as an unpaid volunteer military surgeon in the hospitals of Cuba.</li>
+                  <li>When brought to Manila Bay in August 1896, he placed himself unconditionally under Gov. Gen. Blanco’s command aboard the cruiser <em>Castilla</em> for nearly a month, rather than attempting escape.</li>
+                  <li>During his steamer’s coaling layover in British-governed Singapore, where English law protected political refugees and friends urged him to jump ship, he refused to escape, insisting that a clear conscience needs no flight.</li>
+                </ul>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="I turned down offers of escape; I offered to serve as a military surgeon in Cuba; I placed myself unconditionally at the disposal of the Governor General aboard the Castilla; and during my layover in Singapore, I refused to flee because my conscience was completely clean.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 4 -->
+        <article class="rebuttal-item" data-point="4" data-category="dapitan procedural">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-4" id="point-header-4">
+            <div class="point-number-badge">
+              <span class="num">04</span>
+              <span class="roman">IV</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Opportunities to Escape Ignored</div>
+              <h3 class="point-heading">Point 4: Unfettered Coastal Freedom in Dapitan: Investment in Land vs. Fleeing via Moro Vintas</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-4" role="region" aria-labelledby="point-header-4" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That Dapitan was used as a subversive clandestine command post from which an armed breakout was planned.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal exposed the sheer illogicality of the accusation. In Dapitan, he enjoyed substantial freedom: he owned boats, was permitted to travel unaccompanied along the rugged coasts for days at a time, and visited remote rancherias without armed escorts.
+                </p>
+                <div class="evidentiary-proof-box">
+                  <strong>The Concrete Counter-Proof:</strong>
+                  If he harbored revolutionary ambitions or feared arrest, he could have effortlessly slipped away to Borneo or the Dutch East Indies aboard swift Moro vintas. Instead, he did the precise opposite: he bought real estate, planted agricultural crops, engineered waterworks, constructed a hospital, established a school for local youths, and brought his aged mother and sisters to reside permanently with him.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="In Dapitan I had boats and was permitted to sail along the coast for a week at a time. If I were plotting a revolution, I could have easily fled on Moro vintas. Instead, I bought land, built a hospital, planted crops, and brought my family to live with me.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 5 (KEY HIGHLIGHT) -->
+        <article class="rebuttal-item featured-highlight-item" data-point="5" data-category="procedural valenzuela">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-5" id="point-header-5">
+            <div class="point-number-badge highlight-badge">
+              <span class="num">05</span>
+              <span class="roman">V</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag gold-tag">★ KEY LEGAL HIGHLIGHT • CHIEF PARADOX</div>
+              <h3 class="point-heading">Point 5: The Paradox of Leadership: "What Kind of a Chief is That?"</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-5" role="region" aria-labelledby="point-header-5" hidden>
+            <div class="body-inner">
+              <div class="featured-quote-container">
+                <div class="quote-ornament">“</div>
+                <blockquote class="lead-legal-quote">
+                  "What kind of a chief is that who is not consulted about the plans and is only informed so that he may escape? What kind of a chief is that who, when he says 'No', they say 'Yes'?"
+                </blockquote>
+                <cite class="quote-attribution">— Dr. José Rizal, <em>Adiciones a Mi Defensa</em>, December 26, 1896</cite>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Forensic Analysis of Command & Control</h4>
+                <p>
+                  This rhetorical and legal masterstroke demolished the prosecution's claim of military or operational command. Under any legal doctrine—military, colonial, or common law—a "leader" or "chief" exercises command responsibility, gives orders, and guides execution.
+                </p>
+                <p>
+                  Rizal illustrated that the Katipunan treated his name as an unsolicited emblem without his consent or authority. When they approached him, it was not to seek strategic command, but merely to inform him of a fait accompli. When he exercised moral judgment and commanded them to desist (<strong>"No!"</strong>), they defied him and proceeded with rebellion (<strong>"Yes!"</strong>). Ergo, he possessed zero command authority over the Katipunan.
+                </p>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="What kind of a chief is that who is not consulted about the plans and is only informed so that he may escape? What kind of a chief is that who, when he says 'No', they say 'Yes'?">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Key Highlight Quote</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 6 -->
+        <article class="rebuttal-item" data-point="6" data-category="liga">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-6" id="point-header-6">
+            <div class="point-number-badge">
+              <span class="num">06</span>
+              <span class="roman">VI</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Purposes of La Liga Filipina</div>
+              <h3 class="point-heading">Point 6: Statutory Intent of La Liga: Commerce, Industry, and Union</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-6" role="region" aria-labelledby="point-header-6" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That <em>La Liga Filipina</em> was an illegal, seditious association founded deliberately to prepare the population for armed insurrection against the Spanish Crown.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal pointed to the explicit statutory articles he drafted for <em>La Liga Filipina</em>. The organization was legally modelled on European civic cooperation and mutual-aid societies. Its enumerated objectives were:
+                </p>
+                <ul>
+                  <li>Promotion of domestic commerce and local manufacture;</li>
+                  <li>Mutual economic defense against injustice and poverty;</li>
+                  <li>Encouragement of scientific and agricultural education;</li>
+                  <li>Civic union and fraternity among Filipinos under the Spanish realm.</li>
+                </ul>
+                <div class="evidentiary-proof-box">
+                  <strong>Witness Testimony:</strong>
+                  Even the hostile witnesses presented by the prosecution—when questioned about the founding meeting in Tondo—were forced to concede under oath that Rizal spoke solely about economic enterprise, education, and moral solidarity, not rebellion.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="I drafted the statutes of La Liga Filipina solely to foster commerce, industry, education, and union, as confirmed even by hostile witnesses presented by the prosecution.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 7 -->
+        <article class="rebuttal-item" data-point="7" data-category="liga procedural">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-7" id="point-header-7">
+            <div class="point-number-badge">
+              <span class="num">07</span>
+              <span class="roman">VII</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Immediate Dissolution of Liga</div>
+              <h3 class="point-heading">Point 7: The "Single Meeting" Reality: Extinction of the Original Liga in 1892</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-7" role="region" aria-labelledby="point-header-7" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That La Liga was a permanent, continuous revolutionary conspiracy that matured directly into the uprising of 1896.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal established the chronological fact of the Liga’s immediate demise. The organization held exactly <strong>one solitary founding meeting</strong> on July 3, 1892. Days later, on July 6, Rizal was incarcerated in Fort Santiago and promptly deported to Dapitan.
+                </p>
+                <div class="evidentiary-proof-box">
+                  <strong>The Fact of Extinction:</strong>
+                  Without leadership, funds, or executive structure, the original Liga became instantly inert and died on the spot in July 1892. An entity that ceased to function after one session cannot legally be deemed the operational vehicle for an insurrection four and a half years later.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="The Liga held only one meeting and died immediately because I was exiled to Dapitan a few days later. It did not live or continue its existence.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 8 -->
+        <article class="rebuttal-item" data-point="8" data-category="liga">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-8" id="point-header-8">
+            <div class="point-number-badge">
+              <span class="num">08</span>
+              <span class="roman">VIII</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Reorganization Without Knowledge</div>
+              <h3 class="point-heading">Point 8: Complete Ignorance of Subsequent Reorganization by Third Parties</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-8" role="region" aria-labelledby="point-header-8" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That Rizal continued to orchestrate the revived clandestine branches of La Liga in Manila through proxy leaders like Domingo Franco and Apolinario Mabini.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal testified that he was completely uninformed about any subsequent attempt by others to resurrect or reorganize the Liga nine months later in April 1893. While confined in Dapitan under strict Spanish military surveillance and postal censorship, he was neither notified nor asked for approval.
+                </p>
+                <div class="evidentiary-proof-box">
+                  <strong>Principle of Individual Liability:</strong>
+                  In criminal jurisprudence, an individual cannot be held criminally culpable for unauthorized actions undertaken by third parties in distant provinces without his knowledge, consent, or participation.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="If others reorganized the Liga nine months later, I knew nothing about it. An individual cannot be held responsible for the actions of others carried out without his knowledge or consent.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 9 -->
+        <article class="rebuttal-item" data-point="9" data-category="liga valenzuela procedural">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-9" id="point-header-9">
+            <div class="point-number-badge">
+              <span class="num">09</span>
+              <span class="roman">IX</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Katipunan vs. Liga Argument</div>
+              <h3 class="point-heading">Point 9: Institutional Antagonism: Why the Katipunan Was Founded to Replace the Liga</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-9" role="region" aria-labelledby="point-header-9" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That La Liga Filipina and the Katipunan were indistinguishable iterations of the same seditious conspiracy under Rizal.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal dissected the institutional incompatibility between the two entities. The Katipunan (KKK) was founded by Andrés Bonifacio on July 7, 1892—the very night Rizal's deportation to Dapitan was announced—precisely because Bonifacio and the radicals recognized that <em>La Liga Filipina</em> was strictly peaceful, bourgeois, and totally inadequate for revolutionary combat.
+                </p>
+                <div class="evidentiary-proof-box">
+                  <strong>The Branding Proof:</strong>
+                  If <em>La Liga</em> had served revolutionary aims, or if Rizal had been their commanding chief, the revolutionaries would have eagerly retained and capitalized upon the prestige of the <em>Liga</em>’s name and structure. Instead, they discarded the <em>Liga</em> entirely and created a fundamentally different, clandestine militant order with blood oaths and combat lodges.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="The Katipunan was created precisely because La Liga failed to serve revolutionary aims. If Liga had served revolutionary goals, they would have preserved its prestigious name instead of abandoning it entirely.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 10 -->
+        <article class="rebuttal-item" data-point="10" data-category="procedural">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-10" id="point-header-10">
+            <div class="point-number-badge">
+              <span class="num">10</span>
+              <span class="roman">X</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Historical Context of Acrimonious Letters</div>
+              <h3 class="point-heading">Point 10: Human Context Behind Bitter Letters: The Calamba Agrarian Evictions</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-10" role="region" aria-labelledby="point-header-10" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>Private correspondence from the early 1890s was submitted containing biting, angry remarks against Spanish friars and colonial administrators as proof of habitual treasonous intent.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal urged the court to evaluate private correspondence within its true temporal and human context. Those sharp, indignant letters were penned during 1889–1891, when the Dominican hacienda management in Calamba dispossessed his family:
+                </p>
+                <ul>
+                  <li>His elderly parents were forcibly evicted from their ancestral home;</li>
+                  <li>Their family houses and storehouses were demolished under military order;</li>
+                  <li>His brother Paciano and brothers-in-law were arrested and deported to remote islands (Bohol, Mindoro, and the Marianas).</li>
+                </ul>
+                <div class="evidentiary-proof-box">
+                  <strong>Juridical Distinction:</strong>
+                  Anguished grief and familial indignation over administrative cruelties cannot be conflated with organizing a criminal armed conspiracy against the sovereignty of the State years later.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="I asked the court to consider that harsh past letters were written when my family was stripped of land, homes, and warehouses, and my brothers-in-law were banished during the Calamba agrarian dispute. Painful grievance is not seditious rebellion.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 11 -->
+        <article class="rebuttal-item" data-point="11" data-category="dapitan procedural">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-11" id="point-header-11">
+            <div class="point-number-badge">
+              <span class="num">11</span>
+              <span class="roman">XI</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">Exemplary Conduct in Exile</div>
+              <h3 class="point-heading">Point 11: Four Years of Resigned, Exemplary Conduct Certified by Military Commanders</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-11" role="region" aria-labelledby="point-header-11" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That throughout his exile, Rizal was secretly subverting colonial authority and agitating the native population against Spain.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  Rizal appealed to the official state records themselves. For four continuous years (1892–1896), he lived in resigned acceptance of his sentence, dedicating every hour to civil, medical, and scientific enrichment.
+                </p>
+                <div class="evidentiary-proof-box">
+                  <strong>Official Spanish Verification:</strong>
+                  The Spanish politico-military commandants of Dapitan—specifically Captain Ricardo Carnicero and Captain Juan Sitges—repeatedly submitted official reports praising Rizal's irreproachable personal conduct, submission to law, and civic diligence. Even local Jesuit priests, despite fundamental religious debates with Rizal, acknowledged his gentlemanly integrity and total lack of subversive agitation.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="I resignedly endured four years of exile in Dapitan, maintaining exemplary conduct verified by military commanders and local priests despite personal disputes.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Legal Argument</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- POINT 12 -->
+        <article class="rebuttal-item" data-point="12" data-category="procedural valenzuela liga">
+          <header class="rebuttal-header" tabindex="0" role="button" aria-expanded="false" aria-controls="point-content-12" id="point-header-12">
+            <div class="point-number-badge">
+              <span class="num">12</span>
+              <span class="roman">XII</span>
+            </div>
+            <div class="point-title-group">
+              <div class="point-category-tag">The "One Night" Fallacy & Final Rebuttal</div>
+              <h3 class="point-heading">Point 12: The "One Night" Fallacy: Can an Entire Revolution Be Organized in a Single Evening?</h3>
+            </div>
+            <div class="point-expand-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </header>
+          <div class="rebuttal-body" id="point-content-12" role="region" aria-labelledby="point-header-12" hidden>
+            <div class="body-inner">
+              <div class="legal-argument-block">
+                <h4 class="block-label">Prosecution's Accusation</h4>
+                <p>That during the single meeting on July 3, 1892 at the house of Doroteo Ongjunco, Rizal laid down the entire foundation for the armed revolution that exploded in August 1896.</p>
+              </div>
+
+              <div class="legal-argument-block formal-rebuttal">
+                <h4 class="block-label">Rizal's Legal Rebuttal</h4>
+                <p>
+                  In this climactic rebuttal, Rizal challenged the Council of War with devastating common sense and legal causality:
+                </p>
+                <div class="featured-quote-container quote-compact">
+                  <blockquote class="lead-legal-quote">
+                    "How could I have organized an entire revolution in one night alone, during a meeting where only commerce and mutual aid were discussed? If attendees truly took my words as revolutionary, why did the Liga collapse immediately rather than mobilize?"
+                  </blockquote>
+                </div>
+                <div class="evidentiary-proof-box">
+                  <strong>The Concluding Emissary Proof:</strong>
+                  Rizal closed by drawing attention to the very people sent to Dapitan. Why did the Katipunan send Dr. Valenzuela—a complete stranger whom Rizal had never met—to solicit his approval? Because his actual lifelong friends, intellectual peers, and confidants were intimately aware that José Rizal was irrevocably opposed to violent, premature insurrection. Only those who did not know him could dream he would support the revolt.
+                </div>
+              </div>
+
+              <div class="point-actions">
+                <button class="btn-copy-quote" data-quote="How could I have organized an entire revolution in one night alone during a meeting about commerce? If attendees took my words as revolutionary, why did Liga die immediately? The emissaries sent to Dapitan were strangers because my real friends knew I opposed armed rebellion.">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy Final Rebuttal Quote</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4: FINAL DECLARATION QUOTE BOX -->
+    <section id="declaration-quote" class="section-container declaration-section">
+      <div class="parchment-quote-box" id="parchment-quote-box">
+        <div class="wax-seal-watermark" aria-hidden="true">
+          <svg viewBox="0 0 100 100" width="120" height="120">
+            <circle cx="50" cy="50" r="46" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="3,3"/>
+            <circle cx="50" cy="50" r="38" fill="none" stroke="#701C1C" stroke-width="2"/>
+            <text x="50" y="46" text-anchor="middle" fill="#701C1C" font-family="'Cinzel', serif" font-size="12" font-weight="bold">FORT SANTIAGO</text>
+            <text x="50" y="60" text-anchor="middle" fill="#701C1C" font-family="'Cinzel', serif" font-size="10">26 DIC 1896</text>
+          </svg>
+        </div>
+
+        <div class="quote-header-stamp">
+          <span class="stamp-border">DECLARACIÓN SOLEMNE • FORMAL SOLEMN PROTESTATION</span>
+        </div>
+
+        <blockquote class="solemn-declaration-text">
+          "...neither have I established an association for revolutionary purposes nor have I taken part in others nor participated in the rebellion but rather on the contrary I have been opposed to it..."
+        </blockquote>
+
+        <div class="quote-meta-row">
+          <div class="signatory-group">
+            <div class="sign-script">Dr. José Rizal</div>
+            <div class="sign-title">Prisoner of the Spanish Council of War</div>
+            <div class="sign-location">Real Fuerza de Santiago • December 26, 1896</div>
+          </div>
+
+          <div class="quote-actions">
+            <button id="btn-copy-declaration" class="btn-gold" data-quote="...neither have I established an association for revolutionary purposes nor have I taken part in others nor participated in the rebellion but rather on the contrary I have been opposed to it... — Dr. José Rizal, Fort Santiago, December 26, 1896">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <span>Copy Solemn Declaration</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: MODERN RELEVANCE & CIVIC LESSONS -->
+    <section id="modern-relevance" class="section-container modern-relevance-section">
+      <div class="section-header">
+        <div class="section-tag">JURISPRUDENCE FOR THE 21ST CENTURY</div>
+        <h2 class="section-title">Modern Relevance & Civic Lessons</h2>
+        <p class="section-description">
+          Far from being a quaint relic of the 19th century, Rizal's defense brief provides enduring principles for modern civil society, constitutionalism, and information integrity.
+        </p>
+      </div>
+
+      <div class="lessons-grid">
+        <!-- Lesson 1 -->
+        <article class="lesson-card">
+          <div class="lesson-number-tag">01</div>
+          <div class="lesson-icon-circle" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3 class="lesson-title">Due Process & Fair Trial</h3>
+          <p class="lesson-body">
+            Guilt must be established by verified, demonstrable evidence—never through mere association, unsubstantiated rumor, or convenient political assumptions. Rizal’s refusal to accept vague allegations remains a foundational cornerstone of universal procedural rights.
+          </p>
+          <div class="lesson-footer">
+            <span class="lesson-keyword">Evidence vs. Association</span>
+          </div>
+        </article>
+
+        <!-- Lesson 2 -->
+        <article class="lesson-card">
+          <div class="lesson-number-tag">02</div>
+          <div class="lesson-icon-circle" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          </div>
+          <h3 class="lesson-title">Critical Thinking Under Crisis</h3>
+          <p class="lesson-body">
+            Demonstrates how to confront life-threatening, high-stakes accusations with cool, methodical logic and forensic proof rather than paralyzing emotional panic. Even under the shadow of the firing squad, Rizal cataloged dates, travel manifests, and statutory texts.
+          </p>
+          <div class="lesson-footer">
+            <span class="lesson-keyword">Methodical Reason</span>
+          </div>
+        </article>
+
+        <!-- Lesson 3 -->
+        <article class="lesson-card">
+          <div class="lesson-number-tag">03</div>
+          <div class="lesson-icon-circle" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <h3 class="lesson-title">Integrity & Standing on Principle</h3>
+          <p class="lesson-body">
+            Rizal defended objective truth and intellectual honesty even while knowing that the military court-martial was predetermined and politically rigged. He refused to confess to falsehoods or flatter authorities to obtain clemency at the expense of his honor.
+          </p>
+          <div class="lesson-footer">
+            <span class="lesson-keyword">Intellectual Honesty</span>
+          </div>
+        </article>
+
+        <!-- Lesson 4 -->
+        <article class="lesson-card">
+          <div class="lesson-number-tag">04</div>
+          <div class="lesson-icon-circle" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+          </div>
+          <h3 class="lesson-title">Trial by Rumor in the Digital Age</h3>
+          <p class="lesson-body">
+            Highlights the perennial peril of convicting individuals on unverified hearsay and fabricated narratives. This historical injustice mirrors modern digital trials: algorithm-driven "cancel culture", coordinated disinformation, and online mob justice without scrutiny.
+          </p>
+          <div class="lesson-footer">
+            <span class="lesson-keyword">Disinformation & Echo Chambers</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 6: LITERARY VS. LEGALISTIC RIZAL -->
+    <section id="literary-vs-legal" class="section-container comparison-section">
+      <div class="section-header">
+        <div class="section-tag">RHETORICAL TRANSFORMATION</div>
+        <h2 class="section-title">The Duality: Literary vs. Legalistic Rizal</h2>
+        <p class="section-description">
+          A side-by-side comparative analysis contrasting Dr. José Rizal’s celebrated literary and romantic voice against his sharp, forensic persona in the courtroom.
+        </p>
+      </div>
+
+      <!-- Comparative Table & Cards -->
+      <div class="comparison-container">
+        
+        <!-- Left Side: Literary Rizal -->
+        <div class="comparison-column literary-side">
+          <div class="column-header">
+            <div class="column-icon" aria-hidden="true">🪶</div>
+            <h3 class="column-title">The Romantic & Satirical Novelist</h3>
+            <span class="column-subtitle"><em>Noli Me Tángere</em> • <em>El Filibusterismo</em> • <em>Mi Último Adiós</em></span>
+          </div>
+          <div class="comparison-traits-list">
+            <div class="trait-box">
+              <span class="trait-label">Primary Rhetorical Tone</span>
+              <p class="trait-value">Passionate, allegorical, satirical, elegiac, and emotionally resonant.</p>
+            </div>
+            <div class="trait-box">
+              <span class="trait-label">Method of Persuasion</span>
+              <p class="trait-value">Archetypal drama, moral parables (Crisóstomo Ibarra, Simoun, Maria Clara), poetic pathos, and evocative metaphors.</p>
+            </div>
+            <div class="trait-box">
+              <span class="trait-label">Intended Audience</span>
+              <p class="trait-value">The Filipino populace, international intellectual opinion, and Spanish liberal humanists.</p>
+            </div>
+            <div class="trait-box">
+              <span class="trait-label">Sample Excerpt</span>
+              <blockquote class="trait-quote">
+                "I die without seeing the dawn brighten over my native land! You who have it to see, welcome it — and forget not those who have fallen during the night!"
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center Divider Emblem -->
+        <div class="comparison-divider-pill" aria-hidden="true">
+          <span>VS</span>
+        </div>
+
+        <!-- Right Side: Legalistic Rizal -->
+        <div class="comparison-column legalistic-side">
+          <div class="column-header">
+            <div class="column-icon" aria-hidden="true">⚖️</div>
+            <h3 class="column-title">The Forensic Legal Advocate</h3>
+            <span class="column-subtitle"><em>Adiciones a Mi Defensa</em> (December 26, 1896)</span>
+          </div>
+          <div class="comparison-traits-list">
+            <div class="trait-box">
+              <span class="trait-label">Primary Rhetorical Tone</span>
+              <p class="trait-value">Methodical, procedural, evidentiary, objective, and analytically relentless.</p>
+            </div>
+            <div class="trait-box">
+              <span class="trait-label">Method of Persuasion</span>
+              <p class="trait-value">Factual timelines, disproving causation, cross-referencing military manifests, highlighting contradictions in testimony, and statutory analysis.</p>
+            </div>
+            <div class="trait-box">
+              <span class="trait-label">Intended Audience</span>
+              <p class="trait-value">The Spanish Council of War (Consejo de Guerra), military jurists, and the bar of historical jurisprudence.</p>
+            </div>
+            <div class="trait-box">
+              <span class="trait-label">Sample Excerpt</span>
+              <blockquote class="trait-quote">
+                "What kind of a chief is that who is not consulted about the plans and is only informed so that he may escape? What kind of a chief is that who, when he says 'No', they say 'Yes'?"
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Comparative Synthesis Note -->
+      <div class="synthesis-banner">
+        <h4 class="synthesis-title">Synthesis: The Complete Intellectual</h4>
+        <p class="synthesis-text">
+          History predominantly venerates Rizal as the martyr-poet who composed <em>Mi Último Adiós</em> on the eve of his execution. However, <em>Adiciones a Mi Defensa</em> reveals the other hemisphere of his genius: a disciplined intellect capable of meeting an imperial military tribunal on the battlefield of pure legal logic and procedural fairness.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sticky Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-col-main">
+        <div class="footer-brand">
+          <span class="footer-seal">⚖</span>
+          <span class="footer-title">Adiciones a Mi Defensa</span>
+        </div>
+        <p class="footer-desc">
+          An interactive legal and historical humanities initiative documenting Dr. José Rizal’s 12-point defense brief delivered at Fort Santiago on December 26, 1896.
+        </p>
+      </div>
+
+      <div class="footer-col-nav">
+        <span class="footer-col-heading">Brief Chapters</span>
+        <ul>
+          <li><a href="#hero">Overview & Details</a></li>
+          <li><a href="#historical-context">Trial Chronology</a></li>
+          <li><a href="#legal-analysis">12 Rebuttals Analysis</a></li>
+          <li><a href="#declaration-quote">Solemn Declaration</a></li>
+          <li><a href="#modern-relevance">Civic Lessons</a></li>
+          <li><a href="#literary-vs-legal">Literary vs Legal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col-cite">
+        <span class="footer-col-heading">Historical Sources</span>
+        <p class="cite-text">
+          Text based on archival records of the <em>Consejo de Guerra Ordinario</em>, Fort Santiago, Manila (1896), National Historical Commission of the Philippines (NHCP), and historical translations of <em>Adiciones a Mi Defensa</em>.
+        </p>
+        <div class="footer-copyright">
+          &copy; 1896–Present • For Educational & Research Purposes
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container for Copy Events -->
+  <div id="toast-notification" class="toast-notification" role="status" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span id="toast-message" class="toast-message">Text copied to clipboard</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
