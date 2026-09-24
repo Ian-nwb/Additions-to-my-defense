@@ -855,6 +855,61 @@ body::before {
   background: #FFF;
 }
 
+/* Amber / historically-contested milestone variant */
+.timeline-card.debate-card {
+  border-color: #C8860A;
+  background: linear-gradient(135deg, #FFFDF5 0%, #FEF9EC 100%);
+  border-left: 4px solid #C8860A;
+}
+
+.timeline-period-badge.amber-badge {
+  background: #FEF3CD;
+  border-color: #C8860A;
+  color: #7A5200;
+}
+
+.badge-subtle.amber-border {
+  border-color: #C8860A;
+  color: #7A5200;
+  background: #FEF3CD;
+}
+
+/* Bulleted list inside timeline card */
+.timeline-list {
+  margin: 0.5rem 0 1rem 0;
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.timeline-list li {
+  font-size: 0.92rem;
+  color: var(--charcoal-secondary);
+  line-height: 1.65;
+  list-style: disc;
+}
+
+.timeline-list li strong {
+  color: var(--burgundy-dark);
+}
+
+/* Historiographical note callout inside timeline card */
+.debate-note {
+  font-size: 0.83rem;
+  color: #5A3E00;
+  background: #FFF8E6;
+  border: 1px solid #C8860A;
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.85rem;
+  margin: 0.75rem 0 1rem;
+  line-height: 1.6;
+}
+
+.debate-note strong {
+  font-family: var(--font-serif-display);
+}
+
 /* ==========================================================================
    SECTION 3: CORE LEGAL ANALYSIS (12 POINTS)
    ========================================================================== */
