@@ -1,5 +1,5 @@
 # Additions to My Defense — José Rizal
-### Reporting Script / Speaking Pointers
+### Pointers
 
 ---
 
