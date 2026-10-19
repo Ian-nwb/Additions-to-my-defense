@@ -356,7 +356,84 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // -------------------------------------------------------------------------
-  // 7. Print Brief Docket
+  // 8. Interactive Multimedia Video Vault Controller
+  // -------------------------------------------------------------------------
+  const videoCards = document.querySelectorAll('#multimedia-playlist-items .video-card-item');
+  const multimediaIframe = document.getElementById('multimedia-iframe');
+  const playerCategoryBadge = document.getElementById('player-category-badge');
+  const playerActiveTitle = document.getElementById('player-active-title');
+  const playerActiveDescription = document.getElementById('player-active-description');
+  const playerCueText = document.getElementById('player-cue-text');
+  const playerSourceName = document.getElementById('player-source-name');
+  const playerYtLink = document.getElementById('player-youtube-external-link');
+  const mainVideoPlayer = document.getElementById('main-video-player');
+
+  if (videoCards.length > 0 && multimediaIframe) {
+    videoCards.forEach(card => {
+      card.addEventListener('click', () => {
+        // Deselect other cards
+        videoCards.forEach(c => {
+          c.classList.remove('active');
+          c.setAttribute('aria-selected', 'false');
+        });
+
+        // Set active card
+        card.classList.add('active');
+        card.setAttribute('aria-selected', 'true');
+
+        // Extract metadata
+        const videoId = card.getAttribute('data-video-id');
+        const category = card.getAttribute('data-category');
+        const title = card.getAttribute('data-title');
+        const source = card.getAttribute('data-source');
+        const description = card.getAttribute('data-description');
+        const cue = card.getAttribute('data-cue');
+        const ytUrl = card.getAttribute('data-yt-url');
+
+        // Update player components
+        if (videoId) {
+          multimediaIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+          multimediaIframe.title = title || "Historical Video Screening";
+        }
+
+        if (playerCategoryBadge && category) {
+          playerCategoryBadge.textContent = category;
+        }
+
+        if (playerActiveTitle && title) {
+          playerActiveTitle.textContent = title;
+        }
+
+        if (playerActiveDescription && description) {
+          playerActiveDescription.textContent = description;
+        }
+
+        if (playerCueText && cue) {
+          playerCueText.textContent = cue;
+        }
+
+        if (playerSourceName && source) {
+          playerSourceName.textContent = source;
+        }
+
+        if (playerYtLink && ytUrl) {
+          playerYtLink.href = ytUrl;
+        }
+
+        // On mobile or smaller screens, scroll player into view
+        if (window.innerWidth < 1024 && mainVideoPlayer) {
+          mainVideoPlayer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        if (typeof showToast === 'function') {
+          showToast(`Loaded video: ${title ? title.substring(0, 32) + '...' : 'Screening'}`);
+        }
+      });
+    });
+  }
+
+  // -------------------------------------------------------------------------
+  // 9. Print Brief Docket
   // -------------------------------------------------------------------------
   if (printBriefBtn) {
     printBriefBtn.addEventListener('click', () => {
@@ -368,3 +445,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
