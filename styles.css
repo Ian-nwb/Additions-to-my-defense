@@ -128,7 +128,7 @@ body::before {
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0.75rem 1.5rem;
   display: flex;
@@ -176,7 +176,7 @@ body::before {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .nav-item {
@@ -184,7 +184,7 @@ body::before {
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--charcoal-secondary);
-  padding: 0.35rem 0.5rem;
+  padding: 0.35rem 0.45rem;
   border-bottom: 2px solid transparent;
   transition: all var(--trans-fast);
   letter-spacing: 0.02em;
@@ -1367,6 +1367,161 @@ body::before {
 }
 
 /* ==========================================================================
+   SECTION 2B: DATA FOR MY DEFENSE (DECEMBER 12, 1896)
+   ========================================================================== */
+.data-defense-section {
+  background: var(--bg-parchment);
+  border-top: 1px solid var(--border-classic);
+}
+
+.data-dossier-bar {
+  margin-bottom: 2.5rem;
+}
+
+.data-defense-section .timeline-controls {
+  gap: 0.75rem 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Verbatim primary-source text set in the literary serif */
+.legal-argument-block .primary-source-text p {
+  font-family: var(--font-serif-literary);
+  font-size: 1.12rem;
+  line-height: 1.75;
+  color: var(--charcoal-primary);
+}
+
+.legal-argument-block .primary-source-text p + p {
+  margin-top: 0.9rem;
+}
+
+.fn-ref a {
+  font-family: var(--font-sans);
+  font-size: 0.68em;
+  font-weight: 700;
+  color: var(--burgundy-primary);
+  text-decoration: none;
+  padding: 0 0.15em;
+}
+
+.fn-ref a:hover {
+  text-decoration: underline;
+}
+
+[id^="data-fn"],
+#data-for-defense {
+  scroll-margin-top: 90px;
+}
+
+.evidentiary-proof-box a {
+  color: var(--burgundy-primary);
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+
+.evidentiary-proof-box a:hover {
+  color: var(--burgundy-dark);
+}
+
+/* Closing letter to the defender */
+.parchment-quote-box.data-closing-letter {
+  margin-top: 3.5rem;
+}
+
+.letter-body-text {
+  font-family: var(--font-serif-literary);
+  font-size: 1.25rem;
+  color: var(--burgundy-dark);
+  line-height: 1.7;
+  text-align: left;
+  margin-bottom: 2.25rem;
+  position: relative;
+  z-index: 2;
+}
+
+.letter-body-text p + p {
+  margin-top: 0.9rem;
+}
+
+.letter-body-text p:last-child {
+  font-style: italic;
+}
+
+/* Editorial footnotes */
+.data-footnotes-card {
+  background: #FFF;
+  border: 1px solid var(--border-classic);
+  border-top: 3px solid var(--gold-border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem 1.75rem;
+  margin-top: 3rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.data-footnotes-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 0.75rem;
+}
+
+.data-footnotes-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.fn-num {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--burgundy-primary);
+  background: var(--bg-parchment-warm);
+  border: 1px solid var(--border-classic);
+  border-radius: var(--radius-sm);
+}
+
+.fn-text {
+  font-size: 0.9rem;
+  color: var(--charcoal-secondary);
+  line-height: 1.6;
+}
+
+.fn-back {
+  color: var(--gold-deep);
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 0.2rem;
+}
+
+.fn-back:hover {
+  color: var(--burgundy-primary);
+}
+
+.data-footnotes-source {
+  margin-top: 1.1rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.85rem;
+  color: var(--charcoal-muted);
+}
+
+.data-footnotes-source strong {
+  color: var(--burgundy-dark);
+}
+
+.data-synthesis {
+  margin-top: 2.5rem;
+}
+
+/* ==========================================================================
    SECTION 4: FINAL DECLARATION QUOTE BOX
    ========================================================================== */
 .declaration-section {
@@ -1975,6 +2130,18 @@ body::before {
 
   .solemn-declaration-text {
     font-size: 1.3rem;
+  }
+
+  .letter-body-text {
+    font-size: 1.08rem;
+  }
+
+  .legal-argument-block .primary-source-text p {
+    font-size: 1.04rem;
+  }
+
+  .data-footnotes-card {
+    padding: 1.25rem 1.15rem;
   }
 
   .timeline-wrapper::before {

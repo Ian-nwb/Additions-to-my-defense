@@ -19,7 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const resultsCountText = document.getElementById('results-count-text');
   const expandAllBtn = document.getElementById('btn-expand-all');
   const collapseAllBtn = document.getElementById('btn-collapse-all');
-  const rebuttalItems = document.querySelectorAll('.rebuttal-item');
+  const rebuttalItems = document.querySelectorAll('#rebuttals-accordion .rebuttal-item');
+
+  // Data for My Defense (Dec 12, 1896) accordion elements
+  const dataItems = document.querySelectorAll('#data-accordion .rebuttal-item');
+  const dataExpandAllBtn = document.getElementById('btn-data-expand-all');
+  const dataCollapseAllBtn = document.getElementById('btn-data-collapse-all');
+  const allAccordionItems = document.querySelectorAll('.rebuttal-item');
 
   // Toast notification
   const toastNotification = document.getElementById('toast-notification');
@@ -98,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // -------------------------------------------------------------------------
   // 3. Rebuttal Accordion Interactivity
   // -------------------------------------------------------------------------
-  rebuttalItems.forEach(item => {
+  allAccordionItems.forEach(item => {
     const header = item.querySelector('.rebuttal-header');
     const body = item.querySelector('.rebuttal-body');
 
@@ -128,8 +134,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function setAllAccordions(open) {
-    rebuttalItems.forEach(item => {
+  function setAllAccordions(open, items = rebuttalItems) {
+    items.forEach(item => {
       if (item.style.display !== 'none') {
         const header = item.querySelector('.rebuttal-header');
         const body = item.querySelector('.rebuttal-body');
@@ -153,6 +159,12 @@ document.addEventListener('DOMContentLoaded', () => {
   if (collapseAllBtn) {
     collapseAllBtn.addEventListener('click', () => setAllAccordions(false));
   }
+  if (dataExpandAllBtn) {
+    dataExpandAllBtn.addEventListener('click', () => setAllAccordions(true, dataItems));
+  }
+  if (dataCollapseAllBtn) {
+    dataCollapseAllBtn.addEventListener('click', () => setAllAccordions(false, dataItems));
+  }
 
   // By default, open Point 1 and Point 5 (key highlight) for instant engagement
   const point1 = document.querySelector('.rebuttal-item[data-point="1"]');
@@ -167,6 +179,27 @@ document.addEventListener('DOMContentLoaded', () => {
     point5.querySelector('.rebuttal-header').setAttribute('aria-expanded', 'true');
     point5.querySelector('.rebuttal-body').removeAttribute('hidden');
   }
+
+  // Open Part A of Data for My Defense by default
+  const dataPartA = document.querySelector('#data-accordion .rebuttal-item[data-part="A"]');
+  if (dataPartA) {
+    dataPartA.classList.add('open');
+    dataPartA.querySelector('.rebuttal-header').setAttribute('aria-expanded', 'true');
+    dataPartA.querySelector('.rebuttal-body').removeAttribute('hidden');
+  }
+
+  // Footnote links inside collapsed parts: open the parent part before jumping back
+  document.addEventListener('click', (e) => {
+    const backLink = e.target.closest('.fn-back');
+    if (!backLink) return;
+    const target = document.querySelector(backLink.getAttribute('href'));
+    const parentItem = target ? target.closest('.rebuttal-item') : null;
+    if (parentItem && !parentItem.classList.contains('open')) {
+      parentItem.classList.add('open');
+      parentItem.querySelector('.rebuttal-header').setAttribute('aria-expanded', 'true');
+      parentItem.querySelector('.rebuttal-body').removeAttribute('hidden');
+    }
+  });
 
   // -------------------------------------------------------------------------
   // 4. Search and Category Filtering
@@ -328,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (printBriefBtn) {
     printBriefBtn.addEventListener('click', () => {
       // Expand all accordion points prior to printing so full content is visible
-      setAllAccordions(true);
+      setAllAccordions(true, allAccordionItems);
       setTimeout(() => {
         window.print();
       }, 300);

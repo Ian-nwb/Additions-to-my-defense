@@ -78,5 +78,20 @@
 
 ---
 
+## 7. Supplement: Data for My Defense (December 12, 1896)
+**Say:** Before the *Additions*, Rizal wrote a private memo for his defense lawyer, Lt. Luis Taviel de Andrade — *Data for My Defense*.
+
+**Pointers:**
+- **Date & place:** December 12, 1896, in his cell at Fort Santiago — 14 days before the *Additions*
+- **Audience:** Only his defense attorney, so it is more candid and personal than the formal brief
+- **Structure:** Four parts — the Rebellion, the Liga, Masonry, and a closing appeal
+- **Rebellion:** First learned of the uprising from Pío Valenzuela and called it "absurd"; *"Where is the leader who does not issue any order... and when he gives his opinion against it is not obeyed?"*
+- **Liga:** *"A people can be free without being independent"* — he wanted liberties, not armed independence
+- **Key metaphor:** *"Separatist ideas are not mine; rather I am their effect"* — he is the pustule, not the smallpox
+- **Closing:** *"If this is punishable, condemn me"* — but for rebellion, *"never: not even one day's detention"*
+- **Link to the Additions:** Its arguments reappear, sharpened and numbered, in the 12 points of December 26
+
+---
+
 ## Closing Line (optional wrap-up)
 *"Even facing death, Rizal chose reason over fear — defending himself not with emotion, but with logic, evidence, and unshakable principle."*
