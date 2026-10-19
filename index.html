@@ -1852,6 +1852,267 @@
         </p>
       </div>
     </section>
+
+    <!-- SECTION 7: INFORMATIVE & RELATED VIDEOS -->
+    <section id="multimedia-vault" class="section-container multimedia-section">
+      <div class="section-header">
+        <div class="section-tag">ARCHIVAL MEDIA & REENACTMENTS</div>
+        <h2 class="section-title">Informative & Related Videos</h2>
+        <p class="section-description">
+          Curated documentary films, courtroom dramatizations, and scholarly analyses examining Dr. José Rizal’s 1896 court-martial, legal defense strategy, and historical legacy.
+        </p>
+      </div>
+
+      <div class="multimedia-layout">
+        <!-- Main Interactive Player Card -->
+        <div class="video-player-card" id="main-video-player">
+          <div class="video-docket-header">
+            <div class="video-docket-title-wrap">
+              <span class="video-docket-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                </svg>
+              </span>
+              <span class="video-docket-tag">Archival Footage & Evidence</span>
+            </div>
+            <div class="video-status-indicator">
+              <span class="video-status-dot" aria-hidden="true"></span>
+              <span>Active Screening</span>
+            </div>
+          </div>
+
+          <!-- 16:9 Responsive Video Embed Wrapper -->
+          <div class="video-embed-frame-wrap">
+            <iframe 
+              id="multimedia-iframe"
+              src="https://www.youtube.com/embed/UN7y9oPfsvE?rel=0" 
+              title="Jose Rizal (1998) - Restored Film & Trial" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <!-- Video Details Body -->
+          <div class="player-details-body">
+            <span class="player-category-badge" id="player-category-badge">Restored Feature Film & Tribunal Reenactment</span>
+            <h3 class="player-active-title" id="player-active-title">Jose Rizal (1998) — Digitally Restored & Remastered</h3>
+            <p class="player-active-description" id="player-active-description">
+              Directed by Marilou Diaz-Abaya and starring Cesar Montano as Dr. José Rizal with Jaime Fabregas as his assigned defense counsel, Lt. Luis Taviel de Andrade. Depicts Rizal's confinement in Fort Santiago, the preliminary interrogation, and the dramatic proceedings before the Spanish Council of War (Consejo de Guerra).
+            </p>
+
+            <div class="player-cue-box" id="player-cue-box">
+              <span class="player-cue-label">Connection to the Defense Brief:</span>
+              <p class="player-cue-text" id="player-cue-text">
+                Demonstrates the hostile military courtroom environment where Taviel de Andrade presented Rizal's arguments against capital punishment, highlighting the tribunal's refusal to permit direct cross-examination of Katipunero affidavits.
+              </p>
+            </div>
+
+            <div class="player-action-row">
+              <div class="player-source-info">
+                <span>Curated Source: <strong id="player-source-name">GMA Pictures / Central Digital Lab</strong></span>
+              </div>
+              <a 
+                id="player-youtube-external-link" 
+                href="https://www.youtube.com/watch?v=UN7y9oPfsvE" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-watch-youtube">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                <span>Watch on YouTube ↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Selection Playlist -->
+        <div class="multimedia-playlist-panel">
+          <div class="playlist-header-bar">
+            <h4 class="playlist-heading">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="8" y1="6" x2="21" y2="6"></line>
+                <line x1="8" y1="12" x2="21" y2="12"></line>
+                <line x1="8" y1="18" x2="21" y2="18"></line>
+                <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                <line x1="3" y1="18" x2="3.01" y2="18"></line>
+              </svg>
+              <span>Archival Video Archive</span>
+            </h4>
+            <span class="playlist-count-badge">5 Curated Selections</span>
+          </div>
+
+          <div class="playlist-cards-list" id="multimedia-playlist-items" role="tablist" aria-label="Related Videos Playlist">
+            <!-- Video Item 1 -->
+            <button 
+              type="button"
+              class="video-card-item active" 
+              role="tab"
+              aria-selected="true"
+              data-video-id="UN7y9oPfsvE"
+              data-category="Restored Feature Film & Tribunal Reenactment"
+              data-title="Jose Rizal (1998) — Digitally Restored & Remastered"
+              data-source="GMA Pictures / Central Digital Lab"
+              data-description="Directed by Marilou Diaz-Abaya and starring Cesar Montano as Dr. José Rizal with Jaime Fabregas as his assigned defense counsel, Lt. Luis Taviel de Andrade. Depicts Rizal's confinement in Fort Santiago, the preliminary interrogation, and the dramatic proceedings before the Spanish Council of War (Consejo de Guerra)."
+              data-cue="Demonstrates the hostile military courtroom environment where Taviel de Andrade presented Rizal's arguments against capital punishment, highlighting the tribunal's refusal to permit direct cross-examination of Katipunero affidavits."
+              data-yt-url="https://www.youtube.com/watch?v=UN7y9oPfsvE">
+              <div class="card-thumb-wrap">
+                <img class="card-thumb-img" src="https://img.youtube.com/vi/UN7y9oPfsvE/hqdefault.jpg" alt="Jose Rizal film thumbnail" loading="lazy">
+                <div class="card-play-overlay">
+                  <svg class="play-svg-badge" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="card-info-wrap">
+                <div class="card-top-meta">
+                  <span class="card-genre-tag">Historical Cinema</span>
+                  <span class="card-active-indicator">● Playing</span>
+                </div>
+                <h5 class="card-title">Jose Rizal (1998) — Full Restored Movie & Trial</h5>
+                <div class="card-sub-meta">
+                  <span>GMA Pictures • 2h 58m</span>
+                </div>
+              </div>
+            </button>
+
+            <!-- Video Item 2 -->
+            <button 
+              type="button"
+              class="video-card-item" 
+              role="tab"
+              aria-selected="false"
+              data-video-id="q7k0icAaNvY"
+              data-category="Legal Procedure & Jurisprudence"
+              data-title="Rizal's Kangaroo Trial | Life and Works of Rizal"
+              data-source="Historical Jurisprudence Studies"
+              data-description="A forensic breakdown of the military court proceedings that convicted Dr. José Rizal. Highlights the acute procedural flaws, denial of competent civil counsel, absence of confrontation with hostile witnesses, and predetermined execution verdict."
+              data-cue="Directly connects to Section 6 of your defense on 'Relevance Today' regarding procedural due process, fair trial standards, and the prohibition of conviction by mere association."
+              data-yt-url="https://www.youtube.com/watch?v=q7k0icAaNvY">
+              <div class="card-thumb-wrap">
+                <img class="card-thumb-img" src="https://img.youtube.com/vi/q7k0icAaNvY/hqdefault.jpg" alt="Rizal's Kangaroo Trial thumbnail" loading="lazy">
+                <div class="card-play-overlay">
+                  <svg class="play-svg-badge" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="card-info-wrap">
+                <div class="card-top-meta">
+                  <span class="card-genre-tag">Legal Analysis</span>
+                  <span class="card-active-indicator">● Playing</span>
+                </div>
+                <h5 class="card-title">Rizal's Kangaroo Trial: Denial of Due Process</h5>
+                <div class="card-sub-meta">
+                  <span>Legal History • 7m</span>
+                </div>
+              </div>
+            </button>
+
+            <!-- Video Item 3 -->
+            <button 
+              type="button"
+              class="video-card-item" 
+              role="tab"
+              aria-selected="false"
+              data-video-id="nyC3D7puHtQ"
+              data-category="Historical Critique & Historiography"
+              data-title="Xiao Time: Ang Manifesto ni Dr. Jose Rizal"
+              data-source="Prof. Michael Charleston 'Xiao' Chua / PTV"
+              data-description="Public historian Prof. Xiao Chua dissects Dr. José Rizal's controversial December 15, 1896 Manifesto to Certain Filipinos and the arguments encapsulated in Adiciones a Mi Defensa, deconstructing the nuance between reform, civil liberties, and armed insurrection."
+              data-cue="Provides historical backing for Rizal's 5th and 12th rebuttals: disproving that he was the Katipunan supreme commander when the Katipunan acted against his express counsel."
+              data-yt-url="https://www.youtube.com/watch?v=nyC3D7puHtQ">
+              <div class="card-thumb-wrap">
+                <img class="card-thumb-img" src="https://img.youtube.com/vi/nyC3D7puHtQ/hqdefault.jpg" alt="Xiao Time Manifesto thumbnail" loading="lazy">
+                <div class="card-play-overlay">
+                  <svg class="play-svg-badge" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="card-info-wrap">
+                <div class="card-top-meta">
+                  <span class="card-genre-tag">Historical Breakdown</span>
+                  <span class="card-active-indicator">● Playing</span>
+                </div>
+                <h5 class="card-title">Xiao Time: Ang Manifesto ni Dr. Jose Rizal</h5>
+                <div class="card-sub-meta">
+                  <span>Prof. Xiao Chua • 4m</span>
+                </div>
+              </div>
+            </button>
+
+            <!-- Video Item 4 -->
+            <button 
+              type="button"
+              class="video-card-item" 
+              role="tab"
+              aria-selected="false"
+              data-video-id="0zkFvq2HcGI"
+              data-category="Award-Winning Docudrama"
+              data-title="Pluma: Si Rizal, Ang Dakilang Manunulat"
+              data-source="GMA News & Public Affairs (Narrated by Howie Severino)"
+              data-description="New York Festivals finalist documentary docudrama starring Rocco Nacino and narrated by Howie Severino. Focuses specifically on Rizal's written texts—how his pen became both the beacon of national consciousness and the prime exhibit Spanish authorities used to indict him."
+              data-cue="Reinforces Section 1 (Type of Writing) and Section 4 (Main Purpose): illustrating how Rizal wielded his intellect, letters, and briefs as his ultimate instruments of truth."
+              data-yt-url="https://www.youtube.com/watch?v=0zkFvq2HcGI">
+              <div class="card-thumb-wrap">
+                <img class="card-thumb-img" src="https://img.youtube.com/vi/0zkFvq2HcGI/hqdefault.jpg" alt="Pluma docudrama thumbnail" loading="lazy">
+                <div class="card-play-overlay">
+                  <svg class="play-svg-badge" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="card-info-wrap">
+                <div class="card-top-meta">
+                  <span class="card-genre-tag">Documentary</span>
+                  <span class="card-active-indicator">● Playing</span>
+                </div>
+                <h5 class="card-title">Pluma: Si Rizal, Ang Dakilang Manunulat</h5>
+                <div class="card-sub-meta">
+                  <span>Howie Severino • 44m</span>
+                </div>
+              </div>
+            </button>
+
+            <!-- Video Item 5 -->
+            <button 
+              type="button"
+              class="video-card-item" 
+              role="tab"
+              aria-selected="false"
+              data-video-id="5H1rmJe1mNI"
+              data-category="Comprehensive Academic Lecture"
+              data-title="The Trial and Execution of Dr. Jose Rizal"
+              data-source="Philippine History Academic Lecture Series"
+              data-description="A structured historical lecture guiding viewers through every stage of Rizal's judicial martyrdom: the preliminary investigation by Colonel Francisco Olive, the formal arraignment, the military Council of War, and the execution at Bagumbayan."
+              data-cue="Ideal reference during Q&A for cross-referencing specific trial dates, penal code articles cited by Spanish fiscal Enrique de Alcocer, and the timeline of December 1896."
+              data-yt-url="https://www.youtube.com/watch?v=5H1rmJe1mNI">
+              <div class="card-thumb-wrap">
+                <img class="card-thumb-img" src="https://img.youtube.com/vi/5H1rmJe1mNI/hqdefault.jpg" alt="Trial & Execution Lecture thumbnail" loading="lazy">
+                <div class="card-play-overlay">
+                  <svg class="play-svg-badge" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="card-info-wrap">
+                <div class="card-top-meta">
+                  <span class="card-genre-tag">Academic Lecture</span>
+                  <span class="card-active-indicator">● Playing</span>
+                </div>
+                <h5 class="card-title">The Trial and Execution of Dr. Jose Rizal</h5>
+                <div class="card-sub-meta">
+                  <span>Academic Review • 18m</span>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- Sticky Footer -->
@@ -1877,6 +2138,7 @@
           <li><a href="#declaration-quote">Solemn Declaration</a></li>
           <li><a href="#modern-relevance">Civic Lessons</a></li>
           <li><a href="#literary-vs-legal">Literary vs Legal</a></li>
+          <li><a href="#multimedia-vault">Related Videos & Media</a></li>
         </ul>
       </div>
 
