@@ -95,3 +95,63 @@
 
 ## Closing Line (optional wrap-up)
 *"Even facing death, Rizal chose reason over fear — defending himself not with emotion, but with logic, evidence, and unshakable principle."*
+
+---
+
+## 8. Informative & Related Videos (References & Embeds)
+
+**Say:** To better visualize the high-stakes environment of December 1896, here are curated documentary and film resources covering Rizal's trial, legal defense, and historical analysis.
+
+### Video 1: Dramatization of the Trial — *Jose Rizal* (1998, Restored)
+* **What it covers:** The courtroom scene before the Spanish Council of War (Consejo de Guerra), featuring Luis Taviel de Andrade's passionate defense and Rizal's testimony.
+* **Direct Link:** [Watch Jose Rizal (1998) on YouTube](https://www.youtube.com/watch?v=UN7y9oPfsvE)
+* **Presenter Cue:** Highlight the atmosphere of the military tribunal and how Rizal was prohibited from cross-examining witnesses.
+
+<iframe width="100%" height="340" src="https://www.youtube.com/embed/UN7y9oPfsvE" title="Jose Rizal (1998) - Full Movie & Trial Scenes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![Watch Jose Rizal Full Movie & Trial](https://img.youtube.com/vi/UN7y9oPfsvE/hqdefault.jpg)](https://www.youtube.com/watch?v=UN7y9oPfsvE)
+
+---
+
+### Video 2: Legal Analysis — *Rizal's Kangaroo Trial*
+* **What it covers:** A concise breakdown of the procedural irregularities, the denial of due process, and why the trial was pre-judged.
+* **Direct Link:** [Watch Rizal's Kangaroo Trial on YouTube](https://www.youtube.com/watch?v=q7k0icAaNvY)
+* **Presenter Cue:** Relate this directly to Section 6 (Relevance Today) on procedural due process.
+
+<iframe width="100%" height="340" src="https://www.youtube.com/embed/q7k0icAaNvY" title="Rizal's Kangaroo Trial" frameborder="0" allow="accelerometer; autoplay; clipboard-write-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![Watch Rizal's Kangaroo Trial](https://img.youtube.com/vi/q7k0icAaNvY/hqdefault.jpg)](https://www.youtube.com/watch?v=q7k0icAaNvY)
+
+---
+
+### Video 3: Historical Breakdown — *Xiao Time: Ang Manifesto ni Dr. Jose Rizal*
+* **What it covers:** Public historian Prof. Xiao Chua analyzes Rizal's December 1896 defense stance, his manifesto against the rebellion, and the question of *"Veneration Without Understanding"*.
+* **Direct Link:** [Watch Xiao Time: Ang Manifesto ni Dr. Jose Rizal on YouTube](https://www.youtube.com/watch?v=nyC3D7puHtQ)
+* **Presenter Cue:** Clarifies how Rizal drew a hard line between constitutional reform/education versus premature armed insurrection.
+
+<iframe width="100%" height="340" src="https://www.youtube.com/embed/nyC3D7puHtQ" title="Xiao Time: Ang Manifesto ni Dr. Jose Rizal" frameborder="0" allow="accelerometer; autoplay; clipboard-write-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![Watch Xiao Time: Ang Manifesto ni Dr. Jose Rizal](https://img.youtube.com/vi/nyC3D7puHtQ/hqdefault.jpg)](https://www.youtube.com/watch?v=nyC3D7puHtQ)
+
+---
+
+### Video 4: Comprehensive Docudrama — *Pluma: Si Rizal, Ang Dakilang Manunulat*
+* **What it covers:** GMA News & Public Affairs award-winning docudrama narrated by Howie Severino, focusing on Rizal's written works, personal papers, and intellectual defense.
+* **Direct Link:** [Watch Pluma: Si Rizal, Ang Dakilang Manunulat on YouTube](https://www.youtube.com/watch?v=0zkFvq2HcGI)
+* **Presenter Cue:** Use this to emphasize Section 1 & Section 4 — that Rizal was fundamentally a writer and thinker defending himself with logic and ink.
+
+<iframe width="100%" height="340" src="https://www.youtube.com/embed/0zkFvq2HcGI" title="Pluma: Si Rizal, Ang Dakilang Manunulat" frameborder="0" allow="accelerometer; autoplay; clipboard-write-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![Watch Pluma: Si Rizal](https://img.youtube.com/vi/0zkFvq2HcGI/hqdefault.jpg)](https://www.youtube.com/watch?v=0zkFvq2HcGI)
+
+---
+
+### Video 5: Academic Lecture — *The Trial and Execution of Dr. Jose Rizal*
+* **What it covers:** Step-by-step lecture covering the preliminary investigation by Colonel Francisco Olive, the formation of the Council of War, the 12 defense arguments, and the final verdict.
+* **Direct Link:** [Watch The Trial and Execution of Dr. Jose Rizal on YouTube](https://www.youtube.com/watch?v=5H1rmJe1mNI)
+* **Presenter Cue:** Great companion for questions during Q&A regarding specific legal codes and witness affidavits.
+
+<iframe width="100%" height="340" src="https://www.youtube.com/embed/5H1rmJe1mNI" title="The Trial and Execution of Jose Rizal" frameborder="0" allow="accelerometer; autoplay; clipboard-write-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![Watch Trial and Execution Lecture](https://img.youtube.com/vi/5H1rmJe1mNI/hqdefault.jpg)](https://www.youtube.com/watch?v=5H1rmJe1mNI)
+
